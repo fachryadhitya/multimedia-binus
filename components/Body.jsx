@@ -25,7 +25,12 @@ const Body = () => {
           >
             Our Talented Group
           </MenuButton>
-          <MenuList bgColor="#333" padding="0.5rem" borderRadius="10px">
+          <MenuList
+            bgColor="#363635"
+            padding="0.5rem"
+            borderRadius="10px"
+            className="text-lg lg:text-2xl"
+          >
             <MenuItem minH="48px">
               <Image
                 boxSize="2rem"

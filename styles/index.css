@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kameron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Shrikhand&display=swap");
 
 @tailwind base;
 
@@ -24,7 +23,7 @@ body {
 }
 
 .nameText {
-  font-family: "Kameron", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 .pr-15 {
