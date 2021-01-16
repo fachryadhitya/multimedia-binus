@@ -29,9 +29,9 @@ const Body = () => {
             bgColor="#363635"
             padding="0.5rem"
             borderRadius="10px"
-            className="text-lg lg:text-2xl"
+            className="text-sm lg:text-2xl"
           >
-            <MenuItem minH="48px">
+            <MenuItem minH="48px" mb="10px">
               <Image
                 boxSize="2rem"
                 borderRadius="full"
@@ -39,10 +39,13 @@ const Body = () => {
                 alt="Fluffybuns the destroyer"
                 mr="12px"
               />
-              <span>Christopher Pratihata</span>
+              <div className="flex flex-col">
+                <p>Christophe Pratihata</p>
+                <p>2301861964</p>
+              </div>
             </MenuItem>
 
-            <MenuItem minH="48px">
+            <MenuItem minH="48px" mb="10px">
               <Image
                 boxSize="2rem"
                 borderRadius="full"
@@ -50,10 +53,13 @@ const Body = () => {
                 alt="Fluffybuns the destroyer"
                 mr="12px"
               />
-              <span>Fachry Adhitya</span>
+              <div className="flex flex-col">
+                <p>Fachry Adhitya</p>
+                <p>2301932595</p>
+              </div>
             </MenuItem>
 
-            <MenuItem minH="48px">
+            <MenuItem minH="48px" mb="10px">
               <Image
                 boxSize="2rem"
                 borderRadius="full"
@@ -61,7 +67,10 @@ const Body = () => {
                 alt="Fluffybuns the destroyer"
                 mr="12px"
               />
-              <span>Leonardo Ignatius</span>
+              <div className="flex flex-col">
+                <p>Leonardo Ignatius</p>
+                <p>2301853123</p>
+              </div>
             </MenuItem>
 
             <MenuItem minH="48px">
@@ -72,19 +81,16 @@ const Body = () => {
                 alt="Fluffybuns the destroyer"
                 mr="12px"
               />
-              <span>Reinaldy Sukamto</span>
+              <div className="flex flex-col">
+                <p>Reinaldy Sukamto</p>
+                <p>2301853136</p>
+              </div>
             </MenuItem>
           </MenuList>
         </Menu>
       </div>
 
       <div className="flex flex-col">
-        {/* <img
-          src="https://wallpaperaccess.com/full/30100.jpg"
-          alt=""
-          className="max-w-full h-96"
-          //   style={{ width: "885px", height: "566px", maxWidth: "100%" }}
-        /> */}
         <video
           style={{ width: "885px", borderRadius: "20px" }}
           autoPlay
