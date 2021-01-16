@@ -1,14 +1,16 @@
-import Nav from '../components/nav'
+// import Body from "../components/";
+import Body from "../components/Body";
+import Header from "../components/Header";
+import StickyFooter from "../components/StickyFooter";
 
 export default function IndexPage() {
   return (
-    <div>
-      <Nav />
-      <div className="py-20">
-        <h1 className="text-5xl text-center text-gray-700 dark:text-gray-100">
-          Next.js + Tailwind CSS 2.0
-        </h1>
+    <>
+      <div className="min-h-screen bg-blue-primary py-6">
+        <Header />
+        <Body />
+        <StickyFooter />
       </div>
-    </div>
-  )
+    </>
+  );
 }
